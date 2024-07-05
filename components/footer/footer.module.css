@@ -1,0 +1,172 @@
+.footer {
+  width: 100%;
+  height: 778px;
+  flex-shrink: 0;
+  background: #474747;
+  border: 1px solid #474747;
+}
+
+.fotContainer {
+  width: 1296px;
+  height: 419px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+  margin: 120px auto;
+}
+
+/* ====== left side ====== */
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+
+  width: 293px;
+  height: 222px;
+}
+.leftSide .h1Logo {
+  display: flex;
+  flex-direction: row;
+}
+.leftSide h1 {
+  padding-top: 9px;
+  padding-left: 9px;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+}
+
+.leftSide p {
+  width: 293px;
+
+  color: #adb29e;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.svgs {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: -5px;
+}
+
+/* ====== Middle Side ====== */
+
+.middleSide {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  width: 330px;
+  height: 352px;
+}
+
+.leftList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 61px;
+  height: 352px;
+}
+
+.rightList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 149px;
+  height: 352px;
+}
+
+.middleSide h1 {
+  color: #fff;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.middleSide h2 {
+  width: 149px;
+  color: #dbdfd0;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.leftList .pages,
+.pages2 {
+  padding-bottom: 30px;
+}
+
+/* ====== rightSide ====== */
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 403px;
+  height: 419px;
+}
+
+.rightSide h1 {
+  color: #fff;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.imgContainer {
+  gap: 15px;
+  display: grid;
+  grid-template-columns: 190px auto;
+}
+
+.imgContainer img {
+  border-radius: 12px;
+}
+.copyRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyRight h1 {
+  color: #adb29e;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.line1 {
+  width: 1296px;
+  height: 1px;
+  background: #888d7a;
+}

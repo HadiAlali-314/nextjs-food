@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Playfair+Display&display=swap");
+.back {
+  background: #f9f9f7;
+  border: 1px solid #f9f9f7;
+}
+.textAndForm {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin: 74px auto -240px;
+
+  position: relative;
+  width: 812px;
+  height: 752px;
+  flex-shrink: 0;
+}
+
+.map {
+  position: relative;
+
+  width: 100%;
+  height: 767px;
+}
+
+/* text */
+.textSection {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.textSection h1 {
+  color: #2c2f24;
+  text-align: center;
+
+  font-family: Playfair Display;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+}
+
+.textSection p {
+  width: 545px;
+  color: #495460;
+  text-align: center;
+
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* form */
+.form {
+  position: relative;
+  width: 812px;
+  height: 504px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: #fff;
+
+  z-index: 1;
+  /* 1 */
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form .content {
+  width: 717px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+
+  margin: 30px auto;
+  left: 0;
+  right: 0;
+}
+
+.content .row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 717px;
+  height: 92px;
+}
+
+/* map */
+.map img {
+  width: 100%;
+  height: 767px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+/* ====== first-2-3 rows ======  */
+
+.date,
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.time button {
+  display: flex;
+  width: 350px;
+  height: 60px;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 72px;
+  border: 1px solid var(--neutral-03, #dbdfd0);
+  background: var(--neutral-01, #fff);
+}
+.date button {
+  display: flex;
+  width: 350px;
+  height: 60px;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 72px;
+  border: 1px solid var(--neutral-03, #dbdfd0);
+  background: var(--neutral-01, #fff);
+}
+
+.date span {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+
+  /* Body/16px/Regular */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.time span {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+
+  /* Body/16px/Regular */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.date h1 {
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.time h1 {
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+/* ===== 3 row ===== */
+
+.total button {
+  display: flex;
+  width: 717px;
+  height: 60px;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 72px;
+  border: 1px solid var(--neutral-03, #dbdfd0);
+  background: var(--neutral-01, #fff);
+}
+.total h1 {
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+.total span {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+
+  /* Body/16px/Regular */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+/* ======= 4 row ======== */
+
+.bookBut button {
+  cursor: pointer;
+  display: inline-flex;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 118px;
+  background: #ad343e;
+  border: #ad343e;
+  width: 717px;
+}
+.bookBut:hover button {
+  border-radius: 118px;
+  background-color: #ff666b;
+  color: #837a7b;
+  transform: scale(1.05);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.bookBut span {
+  color: var(--neutral-01, #fff);
+  text-align: right; /* Body/16px/Bold */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+/* svg */
+.svgg {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-left: 195px;
+  margin-top: 4px;
+}
+.svgg2 {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-left: 587px;
+  margin-top: 4px;
+}

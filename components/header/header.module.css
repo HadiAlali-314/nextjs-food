@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ Logo ------  */
+.foodLogo {
+  cursor: pointer;
+  width: 56px;
+  height: 55px;
+  margin: 10px;
+  margin-left: -390px;
+}
+
+.logo span {
+  font-family: "Kalam", cursive;
+  color: #474747;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-left: 10px;
+  vertical-align: bottom;
+}
+
+/* ----- NavBar ------ */
+
+a:is(:link, :active, :visited).active {
+  color: blue;
+}
+.pages a {
+  color: black;
+}
+.navBar {
+  width: 432px;
+  height: 32px;
+}
+
+.pages {
+  display: inline-flex;
+  list-style-type: none;
+
+  margin-left: 170px;
+}
+
+.pages li {
+  font-family: DM Sans;
+  padding-left: 32px;
+  padding-top: 10px;
+  color: #2c2f24;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* book button */
+
+.bookButton {
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: row;
+  width: 147px;
+  height: 48px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 118px;
+  border: 1.5px solid #2c2f24;
+  margin: -5px 60px;
+  transition: background-color 0.3s;
+}
+
+.bookButton:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.script {
+  color: #182226;
+  text-align: right;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* active tab */
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .foodLogo {
+    margin: 0;
+  }
+
+  .navBar {
+    width: 100%;
+  }
+
+  .pages {
+    margin: 0;
+  }
+
+  .pages li {
+    padding: 10px 10px;
+  }
+
+  .bookButton {
+    position: relative;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 1275px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .foodLogo {
+    margin: 0;
+  }
+
+  .logoName {
+    font-size: 32px;
+  }
+
+  .navBar {
+    width: 100%;
+  }
+
+  .pages {
+    margin: 0;
+  }
+
+  .pages li {
+    padding: 10px 10px;
+  }
+
+  .bookButton {
+    position: relative;
+    margin: 10px 0;
+  }
+}
+
+.pages .activeLink {
+  padding-bottom: 10px;
+  padding-top: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 79px;
+  height: 32px;
+  border-radius: 34px;
+  background: #dbdfd0;
+}
+
+/*  */
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}

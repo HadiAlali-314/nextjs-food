@@ -1,0 +1,179 @@
+.blogContainer {
+  width: 100%;
+  height: 1117px;
+  flex-shrink: 0;
+  background: #f9f9f7;
+  border: solid #f9f9f7;
+}
+.content {
+  width: 1296px;
+  height: 860px;
+  background: #f9f9f7;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.title {
+  display: flex;
+  width: 1296px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 1296px;
+  height: 732px;
+}
+/* --------------- */
+
+.title h1 {
+  color: #2c2f24;
+
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+}
+
+.title button {
+  cursor: pointer;
+  display: flex;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 118px;
+  background: #ad343e;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.title button:hover {
+  background-color: #251e1e;
+  transform: scale(1.05);
+}
+
+.title button:hover span {
+  color: #fff;
+}
+
+.title span {
+  color: #fff;
+  text-align: right;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* right cards */
+
+.rightCards {
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 327px auto;
+}
+
+.rightCards img {
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+  background: lightgray 50% / cover no-repeat;
+  border: 1px solid #f9f9f7;
+}
+
+.rightCardsTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  object-fit: cover;
+  border-radius: 12px;
+  width: 306px;
+  height: 354px;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+.rightCardsTexts h3 {
+  padding-top: 20px;
+  padding-left: 25px;
+  color: #737865;
+
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.rightCardsTexts h1 {
+  padding-left: 25px;
+  width: 256px;
+
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+/* left card */
+.leftCard {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  width: 636px;
+  height: 732px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: none;
+  background: #fff;
+
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+}
+
+.leftCard h3 {
+  padding-top: 30px;
+  padding-left: 35px;
+  color: #737865;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.leftCard h1 {
+  padding-left: 35px;
+  width: 598px;
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.leftCard p {
+  padding-left: 35px;
+  width: 554px;
+  color: var(--neutral-06, #414536);
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

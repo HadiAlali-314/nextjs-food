@@ -1,0 +1,82 @@
+/* TopBar */
+
+/* --- contact side --- */
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 831px;
+  padding: 9px 154.316px 8.829px 150px;
+  background: #474747;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact i {
+  margin-right: 10px;
+  color: #ffffff;
+}
+.phoneNumber {
+  padding-right: 25px;
+}
+
+.phoneNumber,
+.email {
+  white-space: nowrap;
+  padding-left: 8px;
+  color: #f9f9f7;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+/* --- social side --- */
+
+.socialIcons {
+  display: flex;
+  margin-left: -10px;
+}
+
+.socialIcons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  display: fl;
+  padding: 0px 4px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .topBar {
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5%;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  .phoneNumber {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .socialIcons {
+    padding-top: 25px;
+    position: absolute;
+    margin-left: 0;
+    justify-content: center;
+  }
+}

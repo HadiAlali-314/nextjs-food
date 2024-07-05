@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Playfair+Display&display=swap");
+
+.back {
+  background: var(--neutral-02, #f9f9f7);
+  border: 1px solid #f9f9f7;
+}
+
+.content {
+  width: 1296px;
+  height: 1332px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+
+  margin: 82px auto;
+  left: 0;
+  right: 0;
+}
+
+.textSection {
+  width: 870px;
+  height: 176px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 24px;
+  column-gap: 24px;
+
+  width: 1296px;
+  height: 1084px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards .poster {
+  width: 306px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--neutral-02, #f9f9f7);
+  background: var(--neutral-01, #fff);
+
+  /* 1 */
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* here */
+
+.textSection h1 {
+  width: 880px;
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+
+  /* Headline/H1 */
+  font-family: Playfair Display;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px; /* 96% */
+}
+.textSection p {
+  width: 632px;
+
+  color: var(--neutral-06, #414536);
+  text-align: center;
+
+  /* Body/18px/Regular */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.poster img {
+  cursor: pointer;
+  border-radius: 12px 12px 2px 2px;
+}
+
+.poster h3 {
+  color: #737865;
+
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.poster p {
+  width: 253px;
+  color: #2c2f24;
+
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.textLittle {
+  width: 253px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+
+  margin: 25px auto;
+}

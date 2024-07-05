@@ -1,0 +1,116 @@
+.testimony {
+  width: 100%;
+  height: 666px;
+  flex-shrink: 0;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  width: 1296px;
+  height: 408px;
+}
+.container {
+  width: 1296px;
+  height: 533px;
+  margin: 98px auto;
+  display: flex;
+
+  flex-direction: column;
+  gap: 64px;
+}
+.testimony h1 {
+  color: #2c2f24;
+
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 416px;
+  height: 408px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f9f9f7;
+}
+
+.card h1 {
+  color: #ad343e;
+  left: 0;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+}
+.card .firstH1 {
+  margin-top: 45px;
+  margin-right: 125px;
+}
+.card .secondH1 {
+  margin-top: 45px;
+  margin-right: 160px;
+}
+.card .lastH1 {
+  margin-top: 45px;
+  margin-right: 80px;
+}
+
+.card p {
+  width: 346px;
+  height: 140px;
+  margin-left: 35px;
+
+  color: #414536;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card .line {
+  margin-left: 35px;
+  width: 346px;
+  height: 1px;
+  opacity: 0.7;
+  background: #dbdfd0;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 35px;
+}
+
+.imgs h3 {
+  color: #2c2f24;
+  padding-bottom: 3px;
+  padding-top: 8px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.imgs h5 {
+  color: #414536;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
